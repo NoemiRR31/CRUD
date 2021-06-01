@@ -1,0 +1,102 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background: url(../images/mesa.jpg);
+    margin: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    /*background-color: rgba(81, 173, 205, .5);*/
+    background-color: rgba(159,197,248,.5);
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+p {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+a: nav-link {
+    color: #FFFFFF;
+}
+
+#navbar1 {
+    color: #FFFFFF;
+}
+
+*, *.before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+#Selector {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.SubirFoto {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    line-height: normal;
+    font .size: 100% margin:0;
+}
+
+    .SubirFoto + label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #d3394c;
+        display: inline-block;
+        text-overflow: ellipsis;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 0.6rem 1.2rem;
+        cursor: pointer;
+    }
+
+        .SubirFoto:focus + label,
+        .SubirFoto + label:hover {
+            color: orange;
+            outline: 1px dotted #000;
+            fill: orange;
+        }
+
+        .SubirFoto + label figure {
+            width: 100%;
+            height: 100%;
+            fill: #f1e5e6;
+            border-radius: 50%;
+            background-color: #d3394c;
+            display: block;
+            padding: 20px;
+            margin: 0 auto 10px;
+        }
+
+        .SubirFoto + label:hover figure {
+            background: orange;
+        }
+
+inputfile + label svg {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    fill: #f1e5e6;
+}
