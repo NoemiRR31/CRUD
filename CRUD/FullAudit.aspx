@@ -10,7 +10,7 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>hola soy pedro de github</title>
 
     <!-- --------------------- Funcion que permite mostrar la imagen   ----------------------->
   
